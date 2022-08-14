@@ -8,7 +8,7 @@ import (
 	log "github.com/inconshreveable/log15"
 	logext "github.com/inconshreveable/log15/ext"
 	"github.com/kelseyhightower/envconfig"
-	"github.com/modeerf/p1as-radsec/server"
+	server "github.com/modeerf/p1as-radsec"
 )
 
 var version string

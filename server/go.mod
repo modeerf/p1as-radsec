@@ -1,4 +1,4 @@
-module github.com/modeerf/p1as-radsec
+module github.com/modeerf/p1as-radsec/server
 
 go 1.19
 
