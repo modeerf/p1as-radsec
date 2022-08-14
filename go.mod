@@ -1,4 +1,4 @@
-module main
+module github.com/modeerf/p1as-radsec/main
 
 go 1.19
 
