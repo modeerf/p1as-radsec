@@ -81,7 +81,7 @@ func (srv *Server) newTLSConfig() (*tls.Config, error) {
 	caPool := x509.NewCertPool()
 	caPool.AppendCertsFromPEM(ca)
 	tls := &tls.Config{
-		ClientAuth:   tls.RequireAndVerifyClientCert,
+		ClientAuth:   tls.VerifyClientCertIfGiven,
 		ClientCAs:    caPool,
 		MinVersion:   tls.VersionTLS12,
 		Certificates: []tls.Certificate{cert},
