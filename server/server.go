@@ -1,6 +1,7 @@
 package server
 
 import (
+	"crypto/elliptic"
 	"crypto/tls"
 	"crypto/x509"
 	"io/ioutil"
@@ -9,7 +10,7 @@ import (
 	"time"
 
 	log "github.com/inconshreveable/log15"
-	"github.com/modeerf/p1as-radsec/radius"
+	radius "github.com/modeerf/p1as-radsec"
 )
 
 var testHookListenAndServe func(*Server, net.Listener) // used if non-nil
