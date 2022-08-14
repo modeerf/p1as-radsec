@@ -9,7 +9,7 @@ import (
 	"time"
 
 	log "github.com/inconshreveable/log15"
-	radius "github.com/modeerf/p1as-radsec"
+	"github.com/modeerf/p1as-radsec/radius"
 )
 
 var testHookListenAndServe func(*Server, net.Listener) // used if non-nil

@@ -8,6 +8,8 @@ github.com/mattn/go-isatty v0.0.14 h1:yVuAays6BHfxijgZPzw+3Zlu5yQgKGP2/hcQbHb7S9
 github.com/mattn/go-isatty v0.0.14/go.mod h1:7GGIvUiUoEMVVmxf/4nioHXj79iQHKdU27kJ6hsGG94=
 github.com/modeerf/grp v0.1.0 h1:vtouJG7UKwJsFp97R9ByCF+kKahey8EaUNJc6PxPuqg=
 github.com/modeerf/grp v0.1.0/go.mod h1:s7rRZrqbYD3fy/wpeUSxp9DJtWvtAnvW+RsOKWfA1+U=
+github.com/modeerf/p1as-radsec v0.1.0 h1:soH4w9dPdd9SJKi0pRDEOFbuw74IJapAgA5UaPD7Kgo=
+github.com/modeerf/p1as-radsec v0.1.0/go.mod h1:N7V4yoosMeSWzuofS3tGLJIYp/wzJYmZGteszEmZKQk=
 github.com/modeerf/p1as-radsec/radius v0.0.0-20220814201801-789129aca0b1 h1:StDeGNXoXJts/xc9d5pWRvWGZMgINVHC3JYBszM9mQk=
 github.com/modeerf/p1as-radsec/radius v0.0.0-20220814201801-789129aca0b1/go.mod h1:vF8n3AoyRRza3RhuwKPHUIacOWK23Hf+WeQ1tjb8Jos=
 golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
