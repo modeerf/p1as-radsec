@@ -1,4 +1,4 @@
-module github.com/modeerf/p1as-radsec
+module github.com/modeerf/p1as-radsec/radius
 
 go 1.19
 
